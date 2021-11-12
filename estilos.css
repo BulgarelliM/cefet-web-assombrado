@@ -41,19 +41,19 @@ a:active {
 }
 
 
-/* --- Cabeçalho --- */
-#cabecalho {
+/* --- Cabeçalho header --- */
+header {
   background-color: rgba(0, 0, 0, .95);
   box-shadow: 2px 10px 10px rgba(0,0,0, .25);
   padding-top: 1em;
   text-align: center;
 }
 
-#cabecalho ul {
+header > ul {
   background-color: rgba(0, 204, 147, 0.53);
 }
 
-#cabecalho a {
+header > a {
   text-decoration: none;
   text-shadow: 1px 1px black;
 }
@@ -117,7 +117,7 @@ a:active {
   margin-bottom: 1em;
 }
 
-#ultimas-postagens .post .data-horario {
+#ultimas-postagens .post > time {
   background-color: white;
   color: #333;
   border: 1px solid black;
@@ -179,13 +179,13 @@ a:active {
 
 
 /* --- Rodapé --- */
-#rodape {
+footer {
   background-color: rgba(0, 0, 0, .7);
   padding: 1em;
   display: flex;
 }
 
-#rodape .logo-rodape {
+footer .logo-rodape {
   margin-right: 2em;
 }
 
