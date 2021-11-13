@@ -187,7 +187,12 @@ nav ul li {
   font-size: 150%;
 }
 
-
+#tags span:active{
+  left: -2px;
+  top: -2px;
+  position: relative;
+  cursor: pointer;
+}
 
 
 
