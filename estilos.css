@@ -281,3 +281,15 @@ footer .logo-rodape {
 #botao:hover{
   border: silver solid 1px;
 }
+
+.novidade::before{
+  content: "Novidade!";
+  display: inline-block;
+  background: #009c1e;
+  color: white;
+  border: 1px solid #009c1e;
+  border-radius: 5px;
+  padding: 3px;
+  display: inline-block;
+  margin-right: 1em;
+}
