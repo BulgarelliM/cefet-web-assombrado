@@ -25,11 +25,11 @@ h1 + h2 {
 }
 
 a:link {
-  color: orange;
+  color: #e4e01b;
 }
 
 a:visited {
-  color: orange;
+  color: #dba73e;
 }
 
 a:hover {
@@ -49,20 +49,34 @@ header {
   text-align: center;
 }
 
-header > ul {
+header a {
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+header nav {
   background-color: rgba(0, 204, 147, 0.53);
 }
 
-header > a {
-  text-decoration: none;
-  text-shadow: 1px 1px black;
+nav ul {
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content:space-around;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-#menu-de-navegacao ul {
-  margin-bottom: 0;
+nav ul li {
+  flex-grow: 1;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
 }
-
-
 
 /* --- Conteúdo principal da página --- */
 #conteudo-principal {
@@ -147,6 +161,7 @@ header > a {
   background-size: 300px;
   box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
+  box-sizing: border-box;
 }
 
 #tags h1 {
