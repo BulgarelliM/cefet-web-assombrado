@@ -86,8 +86,6 @@ nav ul li {
 }
 
 
-
-
 /* --- Principal >> Postagens principais --- */
 #posts-principais {
   padding-top: 1.5em;
@@ -273,4 +271,8 @@ footer .logo-rodape {
   color: black;
   border-color: currentColor;
   box-shadow: none;
+}
+
+#botao:hover{
+  border: silver solid 1px;
 }
