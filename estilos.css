@@ -59,11 +59,10 @@ header a {
 
 header nav {
   background-color: rgba(0, 204, 147, 0.53);
-  padding-bottom: 5px;
 }
 
 nav ul {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   list-style-type: none;
   padding-left: 0px;
   display: flex;
@@ -307,4 +306,47 @@ footer .logo-rodape {
   padding: 3px;
   display: inline-block;
   margin-right: 1em;
+}
+
+.boo {
+  position: fixed;
+  width: 40px;
+  opacity: 0.2;
+  transition: all 200ms ease;
+}
+
+.boo:hover {
+  opacity: 1;
+  animation: cresce 2s ease-in 0s infinite;
+}
+
+@keyframes cresce {
+  from {
+    transform: scale(1.0);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.boo-tipo1 {
+  top: 400px;
+  right: 200px;
+  transform: scaleX(-1);
+}
+
+.boo-tipo2 {
+  top: 500px;
+  left: 300px;
+}
+
+.boo-tipo3 {
+  top: 600px;
+  right: 500px;
+}
+
+.boo-tipo1-2 {
+  top: 550px;
+  right: 700px;
+  transform: scaleX(-1);
 }
