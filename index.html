@@ -114,10 +114,10 @@
         <div id="inscreva-se">
           <h3>Inscreva-se!</h3>
           <label>E-mail:
-            <input id="email" type="text">
+            <input id="email" type="text" placeholder="seuemail@exemplo.com">
           </label>
           <label>Nome:
-            <input id="nome" type="text">
+            <input id="nome" type="text" placeholder="seu nome">
           </label>
           <label>
             <input id="recebe-promo" type="checkbox" value="sim" checked> Aceito receber promoções
@@ -138,7 +138,7 @@
 
     <script>
       // faz o vídeo desaparecer de leve assim que terminar
-      const TEMPO = 2000;  // alterado de 11s para 6s, duração do vídeo
+      const TEMPO = 6000;  // alterado de 11s para 6s, duração do vídeo
       setTimeout(() => {
         // faz o vídeo desaparecer colocando a classe .desaparecido
         document.querySelector('.backdrop').classList.add('desaparecido');

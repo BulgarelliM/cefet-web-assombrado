@@ -76,6 +76,7 @@ nav ul li {
   margin-right: 5px;
   margin-left: 5px;
   text-align: center;
+  transition: all 400ms ease;
 }
 
 li:hover {
@@ -117,6 +118,9 @@ li:hover {
   top: 0px;
   padding: 5px 10px;
   box-sizing: border-box;
+  top: 20px;
+  opacity: 0;
+  transition: all 2s ease;
 }
 
 #posts-principais .post img {
@@ -127,7 +131,10 @@ li:hover {
   margin-bottom: .5em;
 }
 
-
+#posts-principais .post .titulo:hover{
+  top: 6px;
+  opacity: 1;
+}
 
 
 /* --- Principal >> Últimas postagens --- */
@@ -221,6 +228,9 @@ footer .logo-rodape {
   margin-right: 2em;
 }
 
+#botao:active {
+  color: silver;
+}
 
 
 
